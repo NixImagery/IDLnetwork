@@ -1,0 +1,36 @@
+title: IDL Network
+# email: your-email@example.com
+description: >- # this means to ignore newlines until "baseurl:"
+  The IDL Network, which is open to all, aims to support collaboration amongst educators of children and young people from 3 to 18 and beyond, including tertiary education. It will be particularly relevant for teachers, teacher educators, trainee teachers and probationers, school leaders, educators in further and higher education, and policymakers.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: IDLnetwork_org
+github_username:  NixImagery
+
+# Build settings
+theme: minima
+source: source
+destination: docs
+timezone: Europe/London
+plugins:
+  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
